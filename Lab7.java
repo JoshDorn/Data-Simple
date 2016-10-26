@@ -67,12 +67,14 @@ public class Lab7
 				System.out.println("What is the title of the movie you are looking for?");
 				Scanner find = new Scanner(System.in);
 				String title = (find.nextLine());
+				
+				title.charAt(0).toUpperCase();
 				Movie mov = movies.findMovie(title);
 				if (mov != null){
 						System.out.println(mov); 
 					}
 					else {
-						System.out.println("The movie was not found!");				
+						System.out.println("The movie was not found!");		
 					}
 				}
 			else
