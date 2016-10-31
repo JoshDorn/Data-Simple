@@ -64,7 +64,7 @@ public class Lab7
 			else if (choice.equals("3"))
 			{
 	
-				System.out.println("What is the title of the movie you are looking for?");
+				System.out.println("What is the title of the movie you are looking for?: ");
 				Scanner find = new Scanner(System.in);
 				String title = (find.nextLine());
 				
